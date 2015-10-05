@@ -25,3 +25,12 @@ gulp
 ```shell
 gulp production
 ```
+
+## Taks
+
+- Image optimize
+- sass to css
+- css prefixer
+- css minifier
+- sprite generator
+- livereload
