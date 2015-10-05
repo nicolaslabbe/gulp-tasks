@@ -1,0 +1,56 @@
+{
+  "src" : {
+  	"folder": "./src/",
+
+  	"sprite": {
+  		"folder": "./src/sprites/"
+  	},
+
+  	"image": {
+  		"folder": "./src/images/"
+  	},
+
+    "sass": {
+      "folder": "./src/sass/",
+      "file": "styles.sass"
+    },
+
+    "prefix": {
+      "folder": "./src/css/",
+      "file": "styles.css"
+    },
+
+  	"min": {
+      "folder": "./public/css/",
+      "file": "styles.css"
+  	}
+  },
+  "dest" : {
+  	"folder": "./public/",
+
+  	"sprite": {
+  		"folderImg": "./public/assets/img",
+  		"folderStyle": "./src/sass/includes/",
+  		"img": "sprite.png",
+  		"styleName": "_sprite.sass",
+  		"cssPath": "../assets/img/sprite.png"
+  	},
+
+  	"image": {
+  		"folder": "./public/assets/img",
+  		"quality": "50-50"
+  	},
+
+    "sass": {
+      "folder": "./src/css"
+    },
+
+    "prefix": {
+      "folder": "./public/css/"
+    },
+
+  	"min": {
+      "folder": "./public/css/"
+  	}
+  }
+}
